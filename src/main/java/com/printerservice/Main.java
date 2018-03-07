@@ -15,7 +15,6 @@ public class Main {
         //TODO: delete the above comments
 
         SnmpManager snmpManager = new SnmpManagerImpl("153.19.121.167", "161", "1.3.6.1.2.1.1.1.0", "public");
-        snmpManager.runSnmpManager();
 
     }
 }
